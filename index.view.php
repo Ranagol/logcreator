@@ -13,7 +13,7 @@
     <div class="container mt-5 mb-4">
         <h3 class="mb-4">logCreator</h3>
 
-        <p>This is a very basic log creator. Whenever you click on whicever button, the app will create a log of that event. Example: if you click on button 'A', a new log will be created in the log.txt file: '[time; date] A button is clicked'. So, check the log.txt after the click...</p>
+        <p class="card p-2">This is a very basic log creator. Whenever you click on whicever button, the app will create a log of that event. Example: if you click on button 'A', a new log will be created in the log.txt file: '[time; date] A button is clicked'. So, check the log.txt after the click...</p>
 
 
         <br>
@@ -38,6 +38,16 @@
                     <button class="btn btn-primary" type="submit" name="Dbutton" value="D">D</button>
                 </form>
             </div>
+        </div>
+
+        <br>
+
+        <div class="card p-2">
+            <?php
+                $display = new LogDisplay;
+                $display->displayAllLogs();
+
+            ?>
         </div>          
     </div>
 

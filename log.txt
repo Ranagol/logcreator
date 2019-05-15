@@ -1,23 +1,12 @@
-[17:37:09; 14.05.2019]D button is clicked
-[17:37:11; 14.05.2019]B button is clicked
-[17:37:12; 14.05.2019]C button is clicked
-[17:37:13; 14.05.2019]A button is clicked
-[17:53:18; 14.05.2019] A button is clicked
-[17:53:20; 14.05.2019] A button is clicked
-[17:55:35; 14.05.2019] A button is clicked
-[17:55:37; 14.05.2019] D button is clicked
-[17:55:38; 14.05.2019] C button is clicked
-[17:55:39; 14.05.2019] B button is clicked
-[17:55:40; 14.05.2019] A button is clicked
-[18:03:08; 14.05.2019] A button is clicked
-[18:03:09; 14.05.2019] B button is clicked
-[18:03:10; 14.05.2019] C button is clicked
-[18:03:11; 14.05.2019] D button is clicked
-[18:09:14; 14.05.2019] B button is clicked
-[18:09:15; 14.05.2019] C button is clicked
-[18:09:16; 14.05.2019] D button is clicked
-[18:12:14; 14.05.2019] D button is clicked
-[18:13:52; 14.05.2019] D button is clicked
-[18:14:22; 14.05.2019] D button is clicked
-[18:14:49; 14.05.2019] D button is clicked
-[18:15:08; 14.05.2019] D button is clicked
+[09:59:37; 15.05.2019] D button is clicked
+[10:01:07; 15.05.2019] D button is clicked
+[10:01:36; 15.05.2019] D button is clicked
+[10:01:56; 15.05.2019] D button is clicked
+[10:08:48; 15.05.2019] A button is clicked
+[10:08:54; 15.05.2019] B button is clicked
+[10:08:57; 15.05.2019] C button is clicked
+[10:30:58; 15.05.2019] C button is clicked
+[10:32:49; 15.05.2019] C button is clicked
+[10:33:00; 15.05.2019] B button is clicked
+[10:33:02; 15.05.2019] A button is clicked
+[10:33:04; 15.05.2019] C button is clicked
