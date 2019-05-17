@@ -2,27 +2,20 @@
 
 class LogWriterExperimental{
     public $fn = 'log.txt';
-    public $message;
-    public $currentTimeAndDate;
-
-    public function __construct($message){
-        $this->message = $message;
-        $this->currentTimeAndDate = date('H:i:s; d.m.Y', time());
-    }
 
     public function openFileForWriting(){
-        $fh = fopen($this->fn, 'a');
-        return $fh;
+        return fopen($this->fn, 'a');
     }
 
-    public function writeIntoFile($fh){
-        fwrite($fh, '[' . $this->currentTimeAndDate . ']' .  $this->message . "\n");
+    public function writeIntoFile($fh, $message){
+        $currentTimeAndDate = date('H:i:s; d.m.Y', time());
+        fwrite($fh, '[' . $currentTimeAndDate . ']' .  $message . "\n");
         fclose($fh);
     }
 
-    public function createLog(){
+    public function createLog($message){
         $a = $this->openFileForWriting();
-        $b = $this->writeIntoFile($a);
+        $b = $this->writeIntoFile($a, $message);
     }
 }
 
